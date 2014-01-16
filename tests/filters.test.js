@@ -132,9 +132,9 @@ var n = new Swig(),
       { c: 'v|groupBy("name")', v: 'foo', e: 'foo' }
     ],
     indent: [
-      { c: 'v|indent', v:'foo', e: '    foo'},
-      { c: 'v|indent(6)', v:'foo', e: '      foo'},
-      { c: 'v|indent(2, "a")',v:'foo', e: 'aafoo'}
+      { c: 'v|indent', v: 'foo', e: '    foo'},
+      { c: 'v|indent(6)', v: 'foo', e: '      foo'},
+      { c: 'v|indent(2, "a")', v: 'foo', e: 'aafoo'}
     ],
     join: [
       { c: 'v|join("+")', v: [1, 2, 3], e: '1+2+3' },
